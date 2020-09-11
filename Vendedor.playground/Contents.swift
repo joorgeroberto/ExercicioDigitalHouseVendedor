@@ -45,11 +45,12 @@ class Vendedor {
     public func setCpf(_ cpf: String) {
         self.cpf = cpf;
     }
+    
     public func getSaldoEmConta() -> Float  {
         return(self.saldoEmConta);
     }
     
-    public func setSaldoEmConta(_ valor: Float) {
+    private func setSaldoEmConta(_ valor: Float) {
         self.saldoEmConta += valor;
     }
     
